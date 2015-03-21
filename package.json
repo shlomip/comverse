@@ -1,0 +1,22 @@
+{
+  "name": "comverse",
+  "version": "1.0.0",
+  "description": "comverse project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shlomip/comverse.git"
+  },
+  "keywords": [
+    "comverse"
+  ],
+  "author": "shlomi perlman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shlomip/comverse/issues"
+  },
+  "homepage": "https://github.com/shlomip/comverse"
+}
