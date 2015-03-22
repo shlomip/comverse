@@ -14,7 +14,7 @@ Comverse Policy Studio
 |Learn More :arrow_right:|
 |---|:
 ***
-|Comverse is Value-Added Servvice Global Market Leader. [chain icon]**Read More**|
+|Comverse is Value-Added Service Global Market Leader. [chain icon]**Read More**|
 |---|:
 
 |Managed Services World Congress September 18-19, Germany. [text icon]**Read More**|
@@ -23,3 +23,12 @@ Comverse Policy Studio
 |Comverse:Enabling a world of Conected Possibilites. [play icon]**Watch Now**|
 |---|:
 ***
+
+WHAT CAN WE DO FOR YOU?
+
+1. [money icon]Data monetization
+2. [robot icon]Machine to machine
+3. [hill top icon] Over the-top(OTT)
+
+|See all of our solutions :arrow_right:|
+|---|:
