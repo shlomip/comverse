@@ -23,6 +23,22 @@ module.exports = function(grunt) {
 
 			}
 		},
+		htmlmin: {
+			options: {
+			removeComments: true,
+			collapseWhitespace: true
+			},
+			compile: {
+				files: {
+				'**/*.html': '**/fixtures/*.html'
+				}
+			},
+			empty: {
+				files: {
+				'tmp/idontexist.html': 'test/fixtures/idontexist.html'
+				}
+			}
+		},
 		watch: {
 			files: ['/src/js/*.js'],
 			tasks: ['uglify']
@@ -45,6 +61,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-html-build');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-htmlmin');
   // Default task(s).
   grunt.registerTask('default', ['jshint', 'uglify']);
   //grunt.registerTask('dist', ['buildhtml:dist']);
