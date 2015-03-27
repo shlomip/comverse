@@ -32,3 +32,115 @@ WHAT CAN WE DO FOR YOU?
 
 |See all of our solutions :arrow_right:|
 |---|:
+***
+WHAT'S HAPPENING AT COMVERSE?
+
+NEWS
+
+|04 SEPTEMBER Comverse reagains Leads in Convergent Charging Market Regains Lead in|
+|---|:
+
+[news icon] All News
+
+
+EVENTS
+
+|04 SEPTEMBER Comverse reagains Leads in Convergent Charging Market Regains Lead in|
+|---|:
+
+[events icon] All Events
+
+
+|04 SEPTEMBER Comverse reagains Leads in Convergent Charging Market Regains Lead in|
+|---|:
+
+[events icon] All Events
+***
+
+SUCCESS STORIES
+
+|[sergey korotych image]"We have very good and very warm relations with Comverse. we always achievet.."
+|---|:
+SERGEY KOROTYCH
+|---|:
+
+Deputy CTO, 3 Mob Ukraine [3mob icon]
+
+[cycle 30 icon] [bull icon] [gemplus icon]
+
+[mtc image]
+[cable & wireless image]
+[trilogy international partners image]
+
+|[adle kehassan image]Comverse has demonstrated that they are partners, not just suppliers, because they understand our needs, our situation; together we are...|
+|---|:
+ADALE KEHASSAN
+
+CIO of Multi-links  [multi-links image]
+
+|"Comverse has been able to fully deliver what we want and we have peers..."  RAVISHANKER Tata Sky CIO N. [tata image]|
+|---|:
+
+[hp image] [atos image]
+
+|All 256 Succcess Stories :arrow_right:|
+|---|:
+
+***
+####KEY SOLUTIONS
+
+Monetizing Data
+
+Over the Top (OTT)
+
+Machine to Machine(M2M)
+
+Cloud Computing
+
+Managed Services
+
+Customer EExperience Management
+
+Rich Commmunication Suite (RCS)
+
+Social Media
+
+4G/LTE
+
+####PRODUCTS & SERVICES
+
+Biling
+
+VAS
+
+Mobile Internet
+
+Global Services
+
+Training Services
+
+####COMPANY
+
+execcutive profiles
+
+clients
+
+investors
+
+partners
+
+corporate resposibility
+
+industry invovlment
+
+careers
+
+###LATEST BLOG POSTS  18 July Comverse Regains Lead Convergent Charging Market  
+
+SCUBSCRIBE TO COMVERSE
+
+![ronit.klein@gmail.com  ####SIGN UP####]
+
+[youtube icon] [tweeter icon] [linkedin icon]
+
+Copyright@2012 Comverse,Inc | Privacy Policy
