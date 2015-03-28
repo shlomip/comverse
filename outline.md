@@ -1,9 +1,7 @@
-##EN:arrow_down: | Customer Login
-#COMVERSE 
-##YOUR NEEDS  OUR PORTFOLIO  NEWS&MEDIA    ABOUT COMVERSE    
-***
-|search|
-|---|:
+[EN]("") | [Customer Login]("")
+
+![alt COMVERSE]("")
+[YOUR NEEDS]("")  |  [OUR PORTFOLIO]("")  |  [NEWS&MEDIA]("") |    [ABOUT COMVERSE]("")    
 ***
 **Free**  Your Markets From IT **Complexity**
 
@@ -11,8 +9,7 @@ Comverse Policy Studio
 
 **1st** Ever Marketign-oriented Policy Tool
 
-|Learn More :arrow_right:|
-|---|:
+<kbd>Learn More<kbd>
 ***
 |Comverse is Value-Added Service Global Market Leader. [chain icon]**Read More**|
 |---|:
@@ -26,16 +23,16 @@ Comverse Policy Studio
 
 WHAT CAN WE DO FOR YOU?
 
-1. [money icon]Data monetization
-2. [robot icon]Machine to machine
-3. [hill top icon] Over the-top(OTT)
+* [money icon]Data monetization
+* [robot icon]Machine to machine
+* [hill top icon] Over the-top(OTT)
 
-|See all of our solutions :arrow_right:|
-|---|:
+<kbd>See all of our solutions <kbd>
+
 ***
 WHAT'S HAPPENING AT COMVERSE?
 
-NEWS
+* NEWS
 
 |04 SEPTEMBER Comverse reagains Leads in Convergent Charging Market Regains Lead in|
 |---|:
@@ -43,104 +40,107 @@ NEWS
 [news icon] All News
 
 
-EVENTS
+* EVENTS
 
 |04 SEPTEMBER Comverse reagains Leads in Convergent Charging Market Regains Lead in|
 |---|:
 
 [events icon] All Events
 
-
-|04 SEPTEMBER Comverse reagains Leads in Convergent Charging Market Regains Lead in|
-|---|:
-
-[events icon] All Events
 ***
 
 SUCCESS STORIES
 
-|[sergey korotych image]"We have very good and very warm relations with Comverse. we always achievet.."
+* story #1
+
+|![alt sergey korotych image]("") "We have very good and very warm relations with Comverse. we always achievet.."
 |---|:
+
 SERGEY KOROTYCH
 |---|:
 
 Deputy CTO, 3 Mob Ukraine [3mob icon]
 
-[cycle 30 icon] [bull icon] [gemplus icon]
+![alt cycle 30 icon]("") ![alt bull icon]("") ![alt gemplus icon]("")
 
-[mtc image]
-[cable & wireless image]
-[trilogy international partners image]
+* story #2
 
-|[adle kehassan image]Comverse has demonstrated that they are partners, not just suppliers, because they understand our needs, our situation; together we are...|
+![alt mtc image]("")
+![alt cable & wireless image]("")
+![alt trilogy international partners image]("")
+
+|![alt adle kehassan image]("") Comverse has demonstrated that they are partners, not just suppliers, because they understand our needs, our situation; together we are...|
 |---|:
+
 ADALE KEHASSAN
 
-CIO of Multi-links  [multi-links image]
+CIO of Multi-links  ![alt multi-links image]("")
 
-|"Comverse has been able to fully deliver what we want and we have peers..."  RAVISHANKER Tata Sky CIO N. [tata image]|
+* story #3
+
+|"Comverse has been able to fully deliver what we want and we have peers..."  RAVISHANKER Tata Sky CIO N. ![tata image]("")|
 |---|:
 
-[hp image] [atos image]
+[![hp image]("")]("") [![atos image]("")]("")
 
-|All 256 Succcess Stories :arrow_right:|
+|All 256 Succcess Stories|
 |---|:
 
 ***
 ####KEY SOLUTIONS
 
-Monetizing Data
+* Monetizing Data
 
-Over the Top (OTT)
+* Over the Top (OTT)
 
-Machine to Machine(M2M)
+* Machine to Machine(M2M)
 
-Cloud Computing
+* Cloud Computing
 
-Managed Services
+* Managed Services
 
-Customer EExperience Management
+* Customer EExperience Management
 
-Rich Commmunication Suite (RCS)
+* Rich Commmunication Suite (RCS)
 
-Social Media
+* Social Media
 
-4G/LTE
+* 4G/LTE
 
 ####PRODUCTS & SERVICES
 
-Biling
+* Biling
 
-VAS
+* VAS
 
-Mobile Internet
+* Mobile Internet
 
-Global Services
+* Global Services
 
-Training Services
+* Training Services
 
 ####COMPANY
 
-execcutive profiles
+* execcutive profiles
 
-clients
+* clients
 
-investors
+* investors
 
-partners
+* partners
 
-corporate resposibility
+* corporate resposibility
 
-industry invovlment
+* industry invovlment
 
-careers
+* careers
 
-###LATEST BLOG POSTS  18 July Comverse Regains Lead Convergent Charging Market  
+###LATEST BLOG POSTS   
 
-SCUBSCRIBE TO COMVERSE
+###SCUBSCRIBE TO COMVERSE
 
-![ronit.klein@gmail.com  ####SIGN UP####]
+[ronit.klein@gmail.com  SIGN UP]
 
-[youtube icon] [tweeter icon] [linkedin icon]
+[![alt youtube icon]("")]("") [![alt tweeter icon]("")}("") [![alt linkedin icon]("")]("")
 
 Copyright@2012 Comverse,Inc | Privacy Policy
