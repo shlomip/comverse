@@ -53,7 +53,7 @@ module.exports = function(grunt) {
 					dest: 'build/<%= pkg.name %>.min.js'
 				} 
 			}
-		}
+		},
 		validation: {
 			options: {
 				reset: grunt.option('reset') || false,
@@ -78,15 +78,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-html-build');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-html-validation');
-<<<<<<< HEAD
-
   grunt.loadNpmTasks('grunt-contrib-uglify');
     // Default task(s).
-=======
+
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   // Default task(s).
->>>>>>> f9fc8cab9947458f9323738e4a3569d33924301e
-  grunt.registerTask('default', ['jshint', 'uglify','validation']);
+  grunt.registerTask('default', ['jshint', 'uglify', 'validation']);
   //grunt.registerTask('dist', ['buildhtml:dist']);
   //grunt.registerTask('default', ['htmlbuild']);
 

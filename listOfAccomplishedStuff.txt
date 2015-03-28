@@ -1,0 +1,19 @@
+outline.md:
+a MarkDown file for Comverse describing the basic outline of the main page.
+
+index.html:
+an html file for Comverse made of basic html describing sections on the page (with a few images/or links to images.. here and there:)
+
+Gruntfile.js:
+grunt tasks' file including the following:
+
+1.htmlmin
+2.uglify
+3.watch
+4.html validation
+
+package.json:
+installed packages, dev's, repo init info.
+
+problems:
+the validation task isnt doing anything for some reason :/
