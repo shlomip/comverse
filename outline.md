@@ -60,7 +60,6 @@ Comverse Policy Studio
 |---|:
 
 SERGEY KOROTYCH
-|---|:
 
 Deputy CTO, 3 Mob Ukraine [3mob icon]
 
