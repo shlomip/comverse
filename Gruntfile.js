@@ -54,12 +54,30 @@ module.exports = function(grunt) {
 				} 
 			}
 		}
+		validation: {
+			options: {
+				reset: grunt.option('reset') || false,
+				stoponerror: false,
+				remotePath: 'http://decodize.com/',
+				remoteFiles: ['html/moving-from-wordpress-to-octopress/',
+							  'css/site-preloading-methods/'], //or 
+				remoteFiles: 'validation-files.json', // JSON file contains array of page paths. 
+				relaxerror: ['Bad value X-UA-Compatible for attribute http-equiv on element meta.'] //ignores these errors 
+			},
+			files: {
+				src: ['<%= yeoman.app %>/*.html',
+					  '!<%= yeoman.app %>/index.html',
+					  '!<%= yeoman.app %>/modules.html',
+					  '!<%= yeoman.app %>/404.html']
+			}
+		}
 	})
 
   // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-html-build');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-html-validation');
 <<<<<<< HEAD
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -68,7 +86,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   // Default task(s).
 >>>>>>> f9fc8cab9947458f9323738e4a3569d33924301e
-  grunt.registerTask('default', ['jshint', 'uglify']);
+  grunt.registerTask('default', ['jshint', 'uglify','validation']);
   //grunt.registerTask('dist', ['buildhtml:dist']);
   //grunt.registerTask('default', ['htmlbuild']);
 
