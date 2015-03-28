@@ -1,7 +1,10 @@
 [EN]("") | [Customer Login]("")
 
 ![alt COMVERSE]("")
-[YOUR NEEDS]("")  |  [OUR PORTFOLIO]("")  |  [NEWS&MEDIA]("") |    [ABOUT COMVERSE]("")    
+[YOUR NEEDS]("")  |  [OUR PORTFOLIO]("")  |  [NEWS&MEDIA]("") |    [ABOUT COMVERSE]("")   
+
+|   searchBox    |
+|---|:
 ***
 **Free**  Your Markets From IT **Complexity**
 
@@ -21,7 +24,7 @@ Comverse Policy Studio
 |---|:
 ***
 
-WHAT CAN WE DO FOR YOU?
+#WHAT CAN WE DO FOR YOU?
 
 * [money icon]Data monetization
 * [robot icon]Machine to machine
@@ -30,7 +33,7 @@ WHAT CAN WE DO FOR YOU?
 <kbd>See all of our solutions <kbd>
 
 ***
-WHAT'S HAPPENING AT COMVERSE?
+#WHAT'S HAPPENING AT COMVERSE?
 
 * NEWS
 
@@ -49,7 +52,7 @@ WHAT'S HAPPENING AT COMVERSE?
 
 ***
 
-SUCCESS STORIES
+#SUCCESS STORIES
 
 * story #1
 
@@ -137,10 +140,11 @@ CIO of Multi-links  ![alt multi-links image]("")
 
 ###LATEST BLOG POSTS   
 
-###SCUBSCRIBE TO COMVERSE
+###SUBSCRIBE TO COMVERSE
 
-[ronit.klein@gmail.com  SIGN UP]
+|ronit.klein@gmail.com  SIGN UP|
+|---|:
 
-[![alt youtube icon]("")]("") [![alt tweeter icon]("")}("") [![alt linkedin icon]("")]("")
+[![alt youtube icon]("")]("") [![alt tweeter icon]("")]("") [![alt linkedin icon]("")]("")
 
 Copyright@2012 Comverse,Inc | Privacy Policy
