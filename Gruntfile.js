@@ -41,7 +41,7 @@ module.exports = function(grunt) {
 		},
 		watch: {
 			files: ['**/*.js'],
-			tasks: ['uglify']
+			tasks: ['validation']
 		},
 		uglify: {
 			dist: {
@@ -56,19 +56,10 @@ module.exports = function(grunt) {
 		},
 		validation: {
 			options: {
-				reset: grunt.option('reset') || false,
-				stoponerror: false,
-				remotePath: 'http://decodize.com/',
-				remoteFiles: ['html/moving-from-wordpress-to-octopress/',
-							  'css/site-preloading-methods/'], //or 
-				remoteFiles: 'validation-files.json', // JSON file contains array of page paths. 
-				relaxerror: ['Bad value X-UA-Compatible for attribute http-equiv on element meta.'] //ignores these errors 
-			},
+					reset:true
+					},
 			files: {
-				src: ['<%= yeoman.app %>/*.html',
-					  '!<%= yeoman.app %>/index.html',
-					  '!<%= yeoman.app %>/modules.html',
-					  '!<%= yeoman.app %>/404.html']
+				src: ['*.html']
 			}
 		}
 	})
