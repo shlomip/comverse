@@ -1,16 +1,9 @@
 [EN]("") | [Customer Login]("")
-<<<<<<< HEAD
-#COMVERSE 
-##YOUR NEEDS  OUR PORTFOLIO  NEWS&MEDIA    ABOUT COMVERSE    
-***
-|search|
-=======
 
 ![alt COMVERSE]("")
 [YOUR NEEDS]("")  |  [OUR PORTFOLIO]("")  |  [NEWS&MEDIA]("") |    [ABOUT COMVERSE]("")   
 
 |   searchBox    |
->>>>>>> origin/gh-pages
 |---|:
 ***
 **Free**  Your Markets From IT **Complexity**
