@@ -10,10 +10,7 @@ grunt tasks' file including the following:
 1.htmlmin
 2.uglify
 3.watch
-4.html validation
+4.html validation (Works!)
 
 package.json:
 installed packages, dev's, repo init info.
-
-problems:
-the validation task isnt doing anything for some reason :/
