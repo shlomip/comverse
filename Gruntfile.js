@@ -24,7 +24,7 @@ module.exports = function(grunt) {
 			}
 		},
 		watch: {
-			files: ['/src/js/*.js'],
+			files: ['**/*.js'],
 			tasks: ['uglify']
 		},
 		uglify: {
@@ -33,7 +33,7 @@ module.exports = function(grunt) {
 					banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
 			  	},
 			  	build: {
-					src: 'comverse/src/js/<%= pkg.name %>.js',
+					src: 'src/js/<%= pkg.name %>.js',
 					dest: 'build/<%= pkg.name %>.min.js'
 				} 
 			}
@@ -42,10 +42,11 @@ module.exports = function(grunt) {
 
   // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-html-build');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  // Default task(s).
+
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+    // Default task(s).
   grunt.registerTask('default', ['jshint', 'uglify']);
   //grunt.registerTask('dist', ['buildhtml:dist']);
   //grunt.registerTask('default', ['htmlbuild']);
