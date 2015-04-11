@@ -9,6 +9,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+		<link rel="stylesheet" href="../src/css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
@@ -16,90 +18,88 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 	<body>
-		<nav>
+		<nav id="nav_links">
 			<p style="text-align: right">
 			<select>
 				<option value="english">EN</option>
 				<option value="hebrew">HB</option>
 			</select>
 			 | <a href = "">Customer login</a>
-			 </p>
+			</p>
 			<p>
-			<img src="src/img/comverse-logo.png" float="middle" style="center-right" alt="image of the comverse logo at the head of the page">
-			<a href=" ">YOUR NEEDS</a> | <a href=" ">OUR PORTFOLIO</a> | <a href=" ">NEWS & MEDIA</a> | <a href=" ">ABOUT COMVERSE</a>
-			<form>
-				<input id="search" type="search" style="right-side" src="src/img/searchBtn.png">
-				<img src="src/img/searchBtn.png" alt="search field">
-			</form>
+				<img src="src/img/comverse-logo.png" style="center-right" alt="image of the comverse logo at the head of the page">
+				<a href=" ">YOUR NEEDS</a> | <a href=" ">OUR PORTFOLIO</a> | <a href=" ">NEWS & MEDIA</a> | <a href=" ">ABOUT COMVERSE</a>
+				<form>
+					<input id="search" type="search" style="right-side" src="src/img/searchBtn.png">
+					<img src="src/img/searchBtn.png" alt="search field">
+				</form>
 			</p>		
 		</nav>
-		 <section id="main2" style="background-image: url('src/img/slide-bg-complexity.jpg')">
-				<span style="color:white">
+		<section id="top";>
+			<section>
 				<h1><strong>FREE </strong>Your Markets From</h1>
 				<h1>IT <strong>Complexity</strong></font></h1>
 				<p>Comverse Policy Studio</p>
 				<p><Strong>1st </strong>Ever Marketign Oriented Policy Tool</p>
-				<br
-				<button style="background-color:blue">LEARN MORE	>></button>
-				<br
-				</span>
-		</section>
-		<section id="main3">
-				<span style="color:white">
-				<ul>
-					<li style="background-color:pink">
-					<p>Comverse Is Value-Added Service Global Market Leader.</p>
+				<button id="learn">LEARN MORE </button>
+			</section>
+			<section class = "articles_">
+				<article style="background-color:#FF33FF">
+				  Comverse Is Value-Added Service Global Market Leader
 					<a href="">Read More</a>
-					</li>
-					<li style="background-color:green">
-					<p>Managed Services World Congress September 18-19 Berlin, Germany</p>
+				</article>
+				<article style="background-color:#66CC33">
+				  Managed Services World Congress September 18-19 Berlin, Germany
 					<a href="">Read More</a>
-					</li>
-					<li style="background-color:orange">
-					<p>Comverse: Enabling a world of Conected Possibilities </p>
-					<a href="">Watch now</a>
-					</li>
-				<ul
-				</span>
+				</article>
+				<article style="background-color:#FF6600">
+				  Comverse: Enabling a world of Connected Possibilities
+					<a href="">Watch Now</a>
+				</article>
+		  </section>
 		</section>
-		<section id="main4">
+		<section id="for_you">
+			<section>
 				<h1>WHAT CAN WE DO FOR YOU?</h1>
 				<ul>
 					<li>
-						<a herf = "">Data Monetization</a>
+						<a href = "" ><img src="src/img/solution_icon_smart-money_hover.png" alt="Data Monetization"></a>
 					</li>
 					<li>
-					  <a herf = "">M2M</a>
+						<a href = "" ><img src="src/img/.png" alt="M2M"></a>
 					</li>
 					<li>
-					  <a herf = "">OTT</a>
+						<a href = "" ><img src="src/img/solution_icon_optimize-efficnt_hover.png" alt="OTT"></a>
 					</li>
 					<li>
-					  <a herf = "">Cloud Computing</a>
+					  <a href = "">Cloud Computing</a>
 					</li>
 					<li>
-					<a herf = "">Managed Services</a>
+					<a href = "">Managed Services</a>
 					</li>
 					<li>
-					  <a herf = "">Social Media</a>
+					  <a href = "">Social Media</a>
 					</li>
+				</ul>
 				<button>See all of our solutions</button>
+			</section>
 		</section>
-		<section id="main5">
+		<section id="whats_happening">
 				<h1>WHAT'S HAPPENING AT COMVERSE ?<h1>
-				<ul>
-					<li>
-						<p>NEWS</p>
-						<p></p>
-						<a herf = "">All News</a>
-					</li>
-					<li>
-						<p>EVENTS</p>
-						<p></p>
-					  <a herf = "">All Events</a>
-				</li>
+				<section class = "articles_">
+					<h2>NEWS</h2>
+					<article style="background-color:#E0E0E0">  
+						04 SEP Comverse Regains Lead in Convergent Charging Market
+						<a href="">All News</a>
+					</article>
+					<h2>EVENTS</h2>
+					<article style="background-color:#E0E0E0">
+						04 SEP Comverse Regains Lead in Convergent Charging Market
+						<a href="">All Events</a>
+					</article>
+				</section>
 		</section>
-		<section id="main6">
+		<section id="success_stories">
 			<h1>SUCCESS STORIES</h1>
 			<ul>
 				<li>
@@ -111,95 +111,103 @@
 				<li>
 					<p>story #3</p>
 				</li>
-			<button>All 256 Success Stories >></button>
+			<button>All 256 Success Stories </button>
 		</section>
-		<section id="main7">
+		
+		<section id="bottom_summary" style="color:white;">
+			<article id="key_solutions">
 				<h1>KEY SOLUTIONS</h1>
 					<ul>
 						<li>
-							<a herf = "">Monetizing Data</a>
+							<a href = "">Monetizing Data</a>
 						</li>
 						<li>
-							<a herf = "">Over the top (OTT)</a>
+							<a href = "">Over the top (OTT)</a>
 						</li>
 						<li>
-							<a herf = "">Machine to Machine</a>
+							<a href = "">Machine to Machine</a>
 						</li>
 						<li>
-							<a herf = "">Cloud Computing</a>
+							<a href = "">Cloud Computing</a>
 						</li>
 						<li>
-							<a herf = "">Managed Services</a>
+							<a href = "">Managed Services</a>
 						</li>
 						<li>
-							<a herf = "">Customer Experience Management</a>
+							<a href = "">Customer Experience Management</a>
 						</li>
 						<li>
-							<a herf = "">Rich Communication Suit (RCS)</a>
+							<a href = "">Rich Communication Suit (RCS)</a>
 						</li>
 						<li>
-							<a herf = "">Social Media</a>
+							<a href = "">Social Media</a>
 						</li>
 						<li>
-							<a herf = "">4G/LTE</a>
+							<a href = "">4G/LTE</a>
 						</li>
 					<ul>
+			</article>	
+			<article id="products_services">
 				<h1>PRODUCTS & SERVICES</h1>
 					<ul>
 						<li>
-							<a herf = "">Billing</a>
+							<a href = "">Billing</a>
 						</li>
 						<li>
-							<a herf = "">VAS</a>
+							<a href = "">VAS</a>
 						</li>
 						<li>
-							<a herf = "">Mobile Internet</a>
+							<a href = "">Mobile Internet</a>
 						</li>
 						<li>
-							<a herf = "">Global Services</a>
+							<a href = "">Global Services</a>
 						</li>
 						<li>
-							<a herf = "">Training Services</a>
+							<a href = "">Training Services</a>
 						</li>
 					<ul>
+			</article>
+			<article id="company">
 				<h1>COMPANY</h1>
 					<ul>
 						<li>
-							<a herf = "">executive profiles</a>
+							<a href = "">executive profiles</a>
 						</li>
 						<li>
-							<a herf = "">clients</a>
+							<a href = "">clients</a>
 						</li>
 						<li>
-							<a herf = "">investors</a>
+							<a href = "">investors</a>
 						</li>
 						<li>
-							<a herf = "">partners</a>
+							<a href = "">partners</a>
 						</li>
 						<li>
-							<a herf = "">corporate responsibilities</a>
+							<a href = "">corporate responsibilities</a>
 						</li>
 						<li>
-							<a herf = "">industry involvement</a>
+							<a href = "">industry involvement</a>
 						</li>
 						<li>
-							<a herf = "">careers</a>
+							<a href = "">careers</a>
 						</li>
 					<ul>
-				<article>
-					<h1><strong>LATEST BLOG POSTS</strong></h1>
-					<hr </hr>
-					<h1><strong>SUBSCRIBE TO COMVERSE</strong></h1>
-					<p>
-					<form>
-						<input id="sign_up" type="sign_up">
-					</form>
-					SIGN UP
-					</p>
-					<a href="">youtube</a>
-					<a href="">tweeter</a>
-					<a href="">linkedin</a>
-				</article>
+			</article>
+			<article id="blog_posts">
+				<h1><strong>LATEST BLOG POSTS</strong></h1>
+				<p>18 JULY Comverse Regains Lead in Convergent Charging Market </p>
+				<h1><strong>SUBSCRIBE TO COMVERSE</strong></h1>
+				<p>
+				<form>
+					<input id="sign_up" type="sign_up">
+					<button>SIGN UP</button>
+				</form>
+				
+				</p>
+				<a href=""><img src="src/img/socialMenuIcon-youtube.png" alt="youtube"></a>
+				<a href=""><img src="src/img/socialMenuIcon-twitter.png" alt="twitter"></a>
+				<a href=""><img src="src/img/socialMenuIcon-linkdin.png" alt="linkedin"></a>
+			</article>
 		</section>
 		<footer>
 			<p>Copyright @2012 Comverse, inc. | Privacy Policy </p>
