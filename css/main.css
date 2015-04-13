@@ -14,6 +14,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /*
@@ -96,20 +97,100 @@ textarea {
    ========================================================================== */
 
 
+ul, p {
+	margin:0;
+	list-style-type: none;
+}
 
+.content {
+	overflow: auto
+}
 
+a {
+ text-decoration: none;
+}
+ 
+a:hover {
+	background-color:blue;
+}
 
+#top {
+	color:white;
+ 	background-image: url(../src/img/slide-bg-complexity.jpg);
+	background-repeat: no-repeat;
+}
 
+ul.first{ position:fixed; float:left}
+ul.second{ position:fixed; float:right}
+	  
+#learn {
+	color:white;
+	border-style: solid;
+	background-color:#0099CC;
+	box-shadow:5px 5px 5px #0099FF;
+}
+#success_stories button {
+	background-color:#0099FF;
+	box-shadow:5px 5px 5px #0099FF;
+}
+.articles_ article {
+	opacity: 0.9;
+    width: 200px;
+    padding: 25px;
+	border-radius: 5px;
+    margin: 25px;
+	display: inline-block;
+}
 
+.articles_ article a{
+	display: block;
+}
 
+#for_you {
+	background-color:#0099CC;
+	background-repeat: no-repeat;
+	color:white;
+	text-align:center;
+}
 
+#for_you button{
+	background-color:#0099FF;
+}
 
+#whats_happening {
+	color:white;
+	background-image: url(../src/img/news-and-events-bg.jpg);
+	background-repeat: no-repeat;
+}
 
+#success_stories{
+	background-color:#E8E8E8;
 
+}
 
+#bottom_summary{
+	background-color:#202020;
+	color:white;
+}
 
+#blog_posts{
+	background-color:#383838;
+	
+}
 
+#blog_posts h1 {
+	color:#0099FF;
+}
 
+#blog_posts button {
+	background-color:#0099FF;
+	box-shadow:5px 5px 5px #0099FF;
+}
+
+footer{
+	background-color:#383838;
+	color:grey;
+}
 
 /* ==========================================================================
    Helper classes
