@@ -127,9 +127,6 @@ head p {
 	text-align: center;
 }
 
-body>header>p {
-	padding-left:200px;
-}
 section {
 	margin:0;
 	padding-left:200px;
