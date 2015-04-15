@@ -40,7 +40,10 @@ module.exports = function(grunt) {
 			}
 		},
 		watch: {
-			files: ['**/*.js'],
+			options:{
+				livereload:true
+				},
+			files: ['src/js/*.js','js/*.js','js/**/*.js','**/*.js','src/*.html','**/**/*.*'],
 			tasks: ['validation']
 		},
 		uglify: {
@@ -54,12 +57,31 @@ module.exports = function(grunt) {
 				} 
 			}
 		},
+		express: {
+			all: {
+				options: {
+					port:9000,
+					hostname:'localhost',
+					base:'.',
+					livereload:true
+				}
+			}
+		},
 		validation: {
 			options: {
 					reset:true
 					},
 			files: {
 				src: ['*.html']
+			}
+		},
+		connect: {
+			server: {
+				options: {
+					port: 9001,
+					hostname:'localhost',
+					livereload:true
+				}
 			}
 		}
 	})
@@ -70,11 +92,14 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-html-validation');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-express');
     // Default task(s).
 
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   // Default task(s).
   grunt.registerTask('default', ['jshint', 'uglify', 'validation']);
+   grunt.registerTask('server', ['connect', 'watch']);
   //grunt.registerTask('dist', ['buildhtml:dist']);
   //grunt.registerTask('default', ['htmlbuild']);
 

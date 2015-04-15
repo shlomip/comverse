@@ -10,32 +10,33 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 		<link rel="stylesheet" href="../src/css/main.css">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>	
+	</head>
 	<body>
-		<nav id="nav_links">
-			<p style="text-align: right">
-			<select>
-				<option value="english">EN</option>
-				<option value="hebrew">HB</option>
-			</select>
-			 | <a href = "">Customer login</a>
-			</p>
+		<header>
 			<p>
-				<img src="src/img/comverse-logo.png" style="center-right" alt="image of the comverse logo at the head of the page">
-				<a href=" ">YOUR NEEDS</a> | <a href=" ">OUR PORTFOLIO</a> | <a href=" ">NEWS & MEDIA</a> | <a href=" ">ABOUT COMVERSE</a>
-				<form>
-					<input id="search" type="search" style="right-side" src="src/img/searchBtn.png">
-					<img src="src/img/searchBtn.png" alt="search field">
-				</form>
-			</p>		
-		</nav>
-		<section id="top";>
+		<select>
+			<option value="english">EN</option>
+			<option value="hebrew">HB</option>
+		</select>
+		 | <a href = "">Customer login</a>
+		</p>
+		<p>
+			<img src="src/img/comverse-logo.png" style="center-right" alt="image of the comverse logo at the head of the page">
+			<a href=" ">YOUR NEEDS</a> | <a href=" ">OUR PORTFOLIO</a> | <a href=" ">NEWS & MEDIA</a> | <a href=" ">ABOUT COMVERSE</a>
+			<form>
+				<input id="search" type="search" style="right-side" src="src/img/searchBtn.png">
+				<img src="src/img/searchBtn.png" alt="search field">
+			</form>
+		</p>	
+		</header>
+		<div class="wrapper">
+		<section class="top">
 			<section>
 				<h1><strong>FREE </strong>Your Markets From</h1>
 				<h1>IT <strong>Complexity</strong></font></h1>
@@ -56,9 +57,10 @@
 				  Comverse: Enabling a world of Connected Possibilities
 					<a href="">Watch Now</a>
 				</article>
-		  </section>
+			  </section>
 		</section>
-		<section id="for_you">
+
+		<section class="for_you">
 			<section>
 				<h1>WHAT CAN WE DO FOR YOU?</h1>
 				<ul>
@@ -84,39 +86,65 @@
 				<button>See all of our solutions</button>
 			</section>
 		</section>
-		<section id="whats_happening">
-				<h1>WHAT'S HAPPENING AT COMVERSE ?<h1>
-				<section class = "articles_">
-					<h2>NEWS</h2>
-					<article style="background-color:#E0E0E0">  
-						04 SEP Comverse Regains Lead in Convergent Charging Market
-						<a href="">All News</a>
-					</article>
-					<h2>EVENTS</h2>
-					<article style="background-color:#E0E0E0">
-						04 SEP Comverse Regains Lead in Convergent Charging Market
-						<a href="">All Events</a>
-					</article>
-				</section>
+
+		<section class="whats_happening">
+			<h1>WHAT'S HAPPENING AT COMVERSE ?<h1>
+			<ul>
+			<div class="events_news">
+				<h4>NEWS</h4>
+			  <li >
+				<a href = "" itemprop="date"><strong>04 <hr></hr>SEP</strong></a>
+				<p>Comverse Regains Lead in Convergent Charging Market Regains Lead in <br><p>
+			  </li>
+			<p><img src="src/img/eventListIconNews_hover.png"><a href="">All News</a></p>
+			</div>
+			<div class="events_news">
+				<h4>EVENTS</h4>
+			  <li >
+				<a href = "" itemprop="date"><strong>04 <hr></hr>SEP</strong></a>
+				<p>Comverse Regains Lead in Convergent Charging Market Regains Lead in <br><p>
+			  </li>
+			<p><img src="src/img/eventListIconEvents_hover.png"><a href="">All Events</a></p>
+			</div>
+			</ul>
 		</section>
-		<section id="success_stories">
+
+		<section class="success_stories">
 			<h1>SUCCESS STORIES</h1>
 			<ul>
 				<li>
-					<p>story #1</p>
+					<div>
+						<a href=""><img src="src/img/JT-GM-face.png" alt="vip"></a>
+						<a href=""><img src="src/img/quote-grey.png" alt="quote"></a>
+						We have very good and very warm relations with Comverse. We always archivet.."<hr></hr> SERGEY KOROTYCH <br></br> Deputy CT, 3 Mob Ukraine
+						<a href=""><img src="src/img/3mob_w108px_X_h95px.jpg" alt="vip"></a></p>
+					</div>
 				</li>
 				<li>
-					<p>story #2</p>
+					<div>
+						<a href=""><img src="src/img/CB-JP-face.png" alt="vip"></a>
+						<a href=""><img src="src/img/cable_wireless_w100px_X_h42px2.jpg"></a></p>
+					</div>
 				</li>
 				<li>
-					<p>story #3</p>
+					<div>
+						<a href=""><img src="src/img/Jersey_Telecom_w100px_X_h42px.jpg" alt="vip"></a>
+						<a href=""><img src="src/img/cable_wireless_w100px_X_h42px2.jpg" alt="quote"></a>
+						<a href=""><img src="src/img/mts_w108px_X_h95px.jpg"></a></p>
+						
+					</div>
 				</li>
+			</ul>
+			<br>
 			<button>All 256 Success Stories </button>
+			<br>
 		</section>
 		
-		<section id="bottom_summary" style="color:white;">
-			<article id="key_solutions">
-				<h1>KEY SOLUTIONS</h1>
+		<section class="bottom_summary" >
+			<ul>
+			  <li>
+					<h1>KEY SOLUTIONS</h1>
+					<div class="bottom_list">
 					<ul>
 						<li>
 							<a href = "">Monetizing Data</a>
@@ -146,68 +174,75 @@
 							<a href = "">4G/LTE</a>
 						</li>
 					<ul>
-			</article>	
-			<article id="products_services">
-				<h1>PRODUCTS & SERVICES</h1>
+					</div>
+			  </li>
+			
+			  <li>
+					<h1>PRODUCTS & SERVICES</h1>
+					<div class="bottom_list">
 					<ul>
-						<li>
-							<a href = "">Billing</a>
-						</li>
-						<li>
-							<a href = "">VAS</a>
-						</li>
-						<li>
-							<a href = "">Mobile Internet</a>
-						</li>
-						<li>
-							<a href = "">Global Services</a>
-						</li>
-						<li>
-							<a href = "">Training Services</a>
-						</li>
+					<li>
+						<a href = "">Billing</a>
+					</li>
+					<li>
+						<a href = "">VAS</a>
+					</li>
+					<li>
+						<a href = "">Mobile Internet</a>
+					</li>
+					<li>
+						<a href = "">Global Services</a>
+					</li>
+					<li>
+						<a href = "">Training Services</a>
+					</li>
+				<ul>
+				</div>
+			  </li>
+			  
+			   <li>
+					<h1>COMPANY</h1>
+					<div class="bottom_list">
 					<ul>
-			</article>
-			<article id="company">
-				<h1>COMPANY</h1>
-					<ul>
-						<li>
-							<a href = "">executive profiles</a>
-						</li>
-						<li>
-							<a href = "">clients</a>
-						</li>
-						<li>
-							<a href = "">investors</a>
-						</li>
-						<li>
-							<a href = "">partners</a>
-						</li>
-						<li>
-							<a href = "">corporate responsibilities</a>
-						</li>
-						<li>
-							<a href = "">industry involvement</a>
-						</li>
-						<li>
-							<a href = "">careers</a>
-						</li>
-					<ul>
-			</article>
-			<article id="blog_posts">
-				<h1><strong>LATEST BLOG POSTS</strong></h1>
-				<p>18 JULY Comverse Regains Lead in Convergent Charging Market </p>
-				<h1><strong>SUBSCRIBE TO COMVERSE</strong></h1>
-				<p>
+					<li>
+						<a href = "">executive profiles</a>
+					</li>
+					<li>
+						<a href = "">clients</a>
+					</li>
+					<li>
+						<a href = "">investors</a>
+					</li>
+					<li>
+						<a href = "">partners</a>
+					</li>
+					<li>
+						<a href = "">corporate responsibilities</a>
+					</li>
+					<li>
+						<a href = "">industry involvement</a>
+					</li>
+					<li>
+						<a href = "">careers</a>
+					</li>
+				</div>
+			  </li>
+			 <li id="blog_posts">
+				<h3><strong>LATEST BLOG POSTS</strong></h3>
+				
+				<p><strong>18 JULY</strong> Comverse Regains Lead in Convergent Charging Market <hr></p>
+				<h3><strong>SUBSCRIBE TO COMVERSE</strong></h3>
+			 
 				<form>
 					<input id="sign_up" type="sign_up">
-					<button>SIGN UP</button>
+					<button>SIGN UP</button><br>
 				</form>
-				
 				</p>
 				<a href=""><img src="src/img/socialMenuIcon-youtube.png" alt="youtube"></a>
 				<a href=""><img src="src/img/socialMenuIcon-twitter.png" alt="twitter"></a>
 				<a href=""><img src="src/img/socialMenuIcon-linkdin.png" alt="linkedin"></a>
-			</article>
+				</li>
+			<ul>
 		</section>
 		<footer>
 			<p>Copyright @2012 Comverse, inc. | Privacy Policy </p>
@@ -233,5 +268,14 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+		<div class="wrapper">
     </body>
 </html>
+
+
+
+
+        
+
+
+
