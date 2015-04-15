@@ -114,7 +114,7 @@ header {
 	height: 90px;
 	z-index:1;
 	padding-left:200px;
-	padding-right:200px;
+	padding-right:150px;
 	top:0px;
 }
 
@@ -130,7 +130,7 @@ head p {
 section {
 	margin:0;
 	padding-left:200px;
-	padding-right:200px;
+	padding-right:150px;
 }
 
 ul >li > article {
@@ -221,7 +221,7 @@ ul.second{ position:fixed; float:right}
 	background-size: cover;
 	background-repeat: no-repeat;
     	background-attachment: fixed;
-	padding-right: 200px;
+	padding-right: 150px;
 	padding-left: 200px;
 }
 
@@ -262,7 +262,7 @@ ul.second{ position:fixed; float:right}
 .success_stories{
 	background-color:#E8E8E8;
 	margin:0;
-	padding-right:200px;
+	padding-right:150px;
     padding-left:200px;
 }
 
