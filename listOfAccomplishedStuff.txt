@@ -14,3 +14,10 @@ grunt tasks' file including the following:
 
 package.json:
 installed packages, dev's, repo init info.
+
+
+hw3:
+
+1.added new tasks as required.
+  the server task for connect doesnt display the index.html page and i cound find why.
+2. index.html and main.css files updated according to specifications.
