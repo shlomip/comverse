@@ -1,3 +1,5 @@
+HW1 + HW2:
+
 outline.md:
 a MarkDown file for Comverse describing the basic outline of the main page.
 
@@ -16,8 +18,18 @@ package.json:
 installed packages, dev's, repo init info.
 
 
-hw3:
+HW3:
 
 1.added new tasks as required.
   the server task for connect doesnt display the index.html page and i cound find why.
 2. index.html and main.css files updated according to specifications.
+
+
+HW4:
+
+1. re-did the index.html and css files to seperate context from background.
+2. commited centering on html elements.
+3. added scrolling squars for future slideshow.
+4. added new images for dropdown list menues.
+5. updated grunt task -server- with livereload for port 8000 (working with watch and updating as needed).
+
