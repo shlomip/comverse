@@ -101,13 +101,10 @@ textarea {
 html {
 	font-family: 'Open Sans', sans-serif;
 	font-size:100%;
-<<<<<<< HEAD
 }
 
 body{
 	margin:0 auto;
-=======
->>>>>>> 8d5d1ca6f007d4bcd1a9d601265c95109a3fe0fb
 }
 
 h1,h2,h3,h4,li,ul,a {
@@ -200,10 +197,6 @@ a {
 	height:auto;
 	font-size:1em;
 	box-shadow:5px 5px 5px grey;
-<<<<<<< HEAD
-=======
-	
->>>>>>> 8d5d1ca6f007d4bcd1a9d601265c95109a3fe0fb
 	background:white;
 	position:absolute;
 }
@@ -270,24 +263,17 @@ a {
 }
 
 .top div {
-<<<<<<< HEAD
-=======
-	font-size:1.5em;
->>>>>>> 8d5d1ca6f007d4bcd1a9d601265c95109a3fe0fb
 	color:white;
 	padding-top:10%;
 	text-align:left;
 	margin:0 auto;
 	max-width:1000px;
-<<<<<<< HEAD
 }
 
 #free {
 	font-size:1.5em;
 	margin:40px;
 	max-width:470px;
-=======
->>>>>>> 8d5d1ca6f007d4bcd1a9d601265c95109a3fe0fb
 }
 
 .description {
@@ -351,7 +337,6 @@ ul.second{ position:fixed; float:right}
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position:center;
-<<<<<<< HEAD
 	background-attachment:fixed;
 }
 
@@ -363,17 +348,7 @@ ul.second{ position:fixed; float:right}
 	text-align:center;
 	margin:0 auto;
 	max-width:1000px;
-=======
->>>>>>> 8d5d1ca6f007d4bcd1a9d601265c95109a3fe0fb
 }
-
-
-.whats_happening div {
-	color:white;
-	text-align:center;
-	margin:0 auto;
-	max-width:1000px;
-	}
 
 
 .whats_happening a p {
@@ -411,7 +386,6 @@ ul.second{ position:fixed; float:right}
 	color: white;
 }
 
-<<<<<<< HEAD
 .events_news li{
 	text-align:left;
 	font-size:1.5em;
@@ -426,22 +400,6 @@ ul.second{ position:fixed; float:right}
 }
 
 .stories h2 {
-=======
-.success_stories {
-	background-color:#E8E8E8;
-}
-
-.success_stories div{
-	margin:0 auto;
-	padding-bottom:10px;
-	max-width:1000px;
-}
-
-.success_stories div button {
-	background-color:#0099FF;
-	max-width:auto;
-	position:relative;
->>>>>>> 8d5d1ca6f007d4bcd1a9d601265c95109a3fe0fb
 	text-align:center;
 	
 	color:white;
@@ -465,7 +423,6 @@ ul.second{ position:fixed; float:right}
   border-radius: 3px;
 }
 
-<<<<<<< HEAD
 .success_story > li > section a{
   transition: color 2s;
 }
@@ -585,40 +542,6 @@ img{
 .success_text > p > a {
   text-decoration: none;
   color: blue;
-=======
-.arrow_right {
-	display:inline-block; 
-	border-top: 10px solid transparent;
-	border-bottom: 10px solid transparent;
-	border-left: 10px solid white;
-	border-right:auto;
-}
-
-.success_stories div li {
-	padding:0;
-	margin-left:76.5px;
-	margin-right:76.5px;
-	height:auto;
-	background:white;
-	display:inline-block;
-    width:25%;
-    height:25%;
-	opacity: 0.5;
-	transition: opacity 2s;
-	left:0;
-	margin:0;
-}
-
-.success_stories div li:hover{
-	background:orange;
-	opacity: 0.8;
-}
-
-.success_stories div h1{
-	text-align:center;
-	color:#565656;
-	font:4.2em;
->>>>>>> 8d5d1ca6f007d4bcd1a9d601265c95109a3fe0fb
 }
 
 
@@ -685,7 +608,6 @@ footer div{
 	text-align:center;
 	color:grey;
 	margin:0 auto;
-<<<<<<< HEAD
 }
 
 
@@ -727,8 +649,6 @@ ol.slideshow li:active{
 
 ol.slideshow li.slideshow_1{
 	
-=======
->>>>>>> 8d5d1ca6f007d4bcd1a9d601265c95109a3fe0fb
 }
 
 /* ==========================================================================
