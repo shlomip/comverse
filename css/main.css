@@ -429,6 +429,10 @@ ul.second{ position:fixed; float:right}
 	color: white;
 }
 
+<<<<<<< HEAD
+=======
+.events_news 
+>>>>>>> origin/gh-pages
 
 .stories{
 	margin: 0 auto !important;
@@ -784,6 +788,7 @@ ol.slideshow li.slideshow_1{
 	display:none;
 }
 
+<<<<<<< HEAD
 .mobile-search img{
 	margin:5px;
 }
@@ -812,6 +817,22 @@ ol.slideshow li p{
 	display:none;
 }
 
+=======
+.mobile-search form{
+	width:100%;
+	font-size:1em;
+	box-shadow:5px 5px 5px black;
+	padding-left:30px;
+	margin-top:15px;
+	background-color: white;
+	background: white;
+}
+
+ol.slideshow li p{
+	display:none;
+}
+
+>>>>>>> origin/gh-pages
 .ham_menu ul{
 	width:100%;
 	font-size:1em;
@@ -829,6 +850,14 @@ ol.slideshow li p{
 }
 
 
+<<<<<<< HEAD
+=======
+@media screen and (max-width:699px) {
+	.search{
+
+	}
+}
+>>>>>>> origin/gh-pages
 
 @media screen and (max-width:767px) {
 	
@@ -838,9 +867,12 @@ ol.slideshow li p{
 	padding:0;
 	}
 	
+<<<<<<< HEAD
 	.company , .person_pic{
 		display:none;
 	}
+=======
+>>>>>>> origin/gh-pages
 	.container{
 		width:auto;
 	}
@@ -854,6 +886,7 @@ ol.slideshow li p{
 	-webkit-column-width:33%;
 	}
 
+<<<<<<< HEAD
 	.mobile-search{
 		display:block;
 		width:38px;
@@ -868,6 +901,9 @@ ol.slideshow li p{
 		display:none !important;
 	}
 
+=======
+	
+>>>>>>> origin/gh-pages
 	.mobile a img{
 		width:50%;
 		height: 50%;
@@ -892,9 +928,14 @@ ol.slideshow li p{
 	}
 
 	.articles_ article{
+<<<<<<< HEAD
 		display:inline-block;
 		width: 100%;
 		height:50%;
+=======
+		display:block;
+		width: 100%;
+>>>>>>> origin/gh-pages
 		padding:0;
 		margin-top: 40px;
 		border-radius: 0px;
@@ -902,12 +943,15 @@ ol.slideshow li p{
 		opacity:1;
 	}
 
+<<<<<<< HEAD
 	.articles_ article::after{
 		content:url('../src/img/promotion-item-arrow.png');
 		float:right;
 		margin:0 auto;
 	}
 
+=======
+>>>>>>> origin/gh-pages
 	.what_can_we_do_for_you ul{
 		width:100%;
 		-webkit-column-count: 3; 
@@ -918,7 +962,11 @@ ol.slideshow li p{
 		display:none;
 	}
 
+<<<<<<< HEAD
 	.whats_happening h4{
+=======
+	.whats_happening h4, p{
+>>>>>>> origin/gh-pages
 		text-align: left;
 		padding-left: 10px;
 

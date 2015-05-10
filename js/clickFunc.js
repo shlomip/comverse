@@ -1,5 +1,8 @@
 hamburger = 0;
+<<<<<<< HEAD
 searcher = 0;
+=======
+>>>>>>> origin/gh-pages
 document.querySelector(".mobile-menu").addEventListener("click",function(){
 	
 	if(hamburger)
@@ -14,6 +17,7 @@ document.querySelector(".mobile-menu").addEventListener("click",function(){
 	}
 });
 
+<<<<<<< HEAD
 
 document.querySelector(".mobile-search").addEventListener("click",function(){
 	
@@ -28,3 +32,19 @@ document.querySelector(".mobile-search").addEventListener("click",function(){
 		searcher= 1;
 	}
 });
+=======
+search = 0;
+document.querySelector(".mobile-menu").addEventListener("click",function(){
+	
+	if(search)
+	{
+		document.querySelector(".mobile-search").style.display= "none";
+		hamburger = 0;
+	}
+	else
+	{
+		document.querySelector(".mobile-search").style.display = "block";
+		search= 1;
+	}
+});
+>>>>>>> origin/gh-pages
