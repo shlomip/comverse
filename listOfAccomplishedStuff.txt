@@ -33,3 +33,7 @@ HW4:
 4. added new images for dropdown list menues.
 5. updated grunt task -server- with livereload for port 8000 (working with watch and updating as needed).
 
+HW5:
+
+added responsive design.
+
