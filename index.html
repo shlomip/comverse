@@ -13,13 +13,39 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>	
 	</head>
 	<body>
-		<header class="head_class">
+	<div class="container">
+		<header class="head_class">	
+		<div>
+			<div class="mobile">
+				<div class="mobile-menu">
+					<img src="src/img/hamburger-icon.png">
+					<div class="ham_menu">
+						<ul>
+							<li><div class="arrow-right"></div>YOUR NEEDS</li>
+							<li>OUR PORTFOLIO</li>
+							<li>NEWS & MEDIA</li>
+							<li> ABOUT COMVERSE</li>
+						</ul>
+					</div>
+				</div>
+				<div>
+				<a href=""><img src="src/img/comverse-logo.png"></a>
+				</div>
+				<div class="mobile-search">
+					<img src="src/img/searchBtnMobile.png" alt="search field">
+					<div class="mobile-form">
+						<form>
+							<input id="search" type="search" placeholder="Search">
+						</form>
+					</div>
+				</div>
+			</div>
 			<div class="links">
 				<div class="lang">
 					<a href = "">Investor Relations </a>| <a href = "">Contact Us </a>| <a href = "">Customer login</a>
 				</div>				
 				<div class="divTopLinks">
-					<img src="src/img/comverse-logo.png" alt="image of the comverse logo at the head of the page">
+					<img class="logo"src="src/img/comverse-logo.png" alt="image of the comverse logo at the head of the page">
 					<ul class="topList">
 						<li class="topLinks" id="li1">
 							<a href="#" data-toggle="dropdown" class="dropdown-toggle">SOLUTIONS</a>
@@ -110,35 +136,42 @@
 							</ul>
 						</li>
 						<li>
-							<form id="form1">
-							<input id="search" type="search" src="src/img/searchBtn.png">
+							<div class="search">
+							<form>
+							<input id="search" type="search" placeholdser="Search">
 							<img src="src/img/searchBtn.png" alt="search field">
 							</form>
+							</div>
 						</li>
 					</ul>
 				</div>
 			</div> 
+			</div>
 		</header>
 		<section class="top">
 			<div>
-				<section id="free">
+				<section>
+					<div id="free">
 					<h1><strong>FREE </strong>Your Markets From
 					<h1>IT <strong>Complexity</strong></h1>
 					Comverse Policy Studio<br>
-					<Strong>1st </strong>Ever Marketign Oriented Policy Tool
+					<Strong>1st </Strong>Ever Marketign Oriented Policy Tool
 					<br>
+					</div>
 					<button id="learn">LEARN MORE </button>
 
 					<ol class="slideshow">
-							<li class="slideshow_1"></li>
-							<li class="slideshow_2"></li>
-							<li class="slideshow_3"></li>
-							<li class="slideshow_4"></li>
+							<li class="slideshow_1"><p>1</p></li>
+							<li class="slideshow_2"><p>2</p></li>
+							<li class="slideshow_3"><p>3</p></li>
+							<li class="slideshow_4"><p>4</p></li>
 						</ol>
 				</section>
+				<br>
+
 				<section class = "articles_">
 					<article style="background-color:#FF33FF">
-					  Comverse Is Value-Added Service Global Market Leader
+					  <p>Comverse Is Value-Added Service Global Market Leader</p>
 						<a href="">Read More</a>
 					</article>
 					<article style="background-color:#66CC33">
@@ -176,7 +209,9 @@
 								<a href = "" ><img src="src/img/solution_icon_smart-money_hover.png" alt="Data Monetization"></a>
 							</li>
 						</ul>
+						<span class="centered">
 						<button>See all of our solutions</button>
+						</span>
 					</section>
 				</div>
 			</section>
@@ -187,7 +222,7 @@
 					<div class="events_news">
 						<h4>NEWS</h4>
 						<li >
-							<a href = "" itemprop="date"><strong>04 <hr></hr>SEP</strong></a>
+							<div class="events"><a href = "" itemprop="date"><strong>04 <hr></hr>SEP</strong></a></div>
 							<p>Comverse Regains Lead in Convergent<br> Charging Market Regains Lead in <br><p>
 						</li>
 						<p><img src="src/img/eventListIconNews_hover.png"><a href="">All News</a></p>
@@ -195,7 +230,7 @@
 					<div class="events_news">
 						<h4>EVENTS</h4>
 						<li >
-							<a href = "" itemprop="date"><strong>04 <hr></hr>SEP</strong></a>
+							<div class="events"><a href = "" itemprop="date"><strong>04 <hr></hr>SEP</strong></a></div>
 							<p>Comverse Regains Lead in Convergent <br>Charging Market Regains Lead in <br><p>
 						</li>
 						<p><img src="src/img/eventListIconEvents_hover.png"><a href="">All Events</a></p>
@@ -227,7 +262,7 @@
 								</div>
 							</li>
 							<li>
-								<div class="logos logos_top">
+								<div class="logos_logos_top">
 									<div class="company"><a href=""><img src="src/img/mts_w108px_X_h95px.jpg"></a></div>
 									<div class="company"><a href=""><img src="src/img/cable_wireless_w100px_X_h42px2.jpg"></a></div>
 									<div class="company"><a href=""><img src="src/img/MAX_telecom_w108px_X_h95.jpg"></a></div>
@@ -263,7 +298,7 @@
 					</ul>
 					<div class="clearfix"></div>
 					<span class="centered">
-						<button>ALL 256 Success Stories</button>
+						<button>All 256 Success Stories</button>
 				    </span>
 				</div>
 		  	</section>		
@@ -373,6 +408,19 @@
 					<ul>
 				</div>
 			</section>
+				<ul class="mobile-bottom">
+					<li>CONTACT US
+					</li>
+					<li>SUBSCRIBE TO COMVERSE NEWS
+					</li>
+					<li>VISIT US ON: 
+						<a href=""><img src="src/img/socialMenuIcon-linkdin.png" alt="linkedin"></a>
+						<a href=""><img src="src/img/socialMenuIcon-youtube.png" alt="youtube"></a>
+						<a href=""><img src="src/img/socialMenuIcon-twitter_hover.png" alt="twitter"></a>
+					</li>
+					<li>CHANGE LANGUAGE: <form input="select">English</form>
+					</li>	
+				</ul>
 			<footer>
 			<div>
 				<p>Copyright @2012 Comverse, inc. | <a href="" style="color:grey;">Privacy Policy</a> </p>
@@ -399,7 +447,9 @@
 				r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
 				ga('create','UA-XXXXX-X','auto');ga('send','pageview');
 			</script>
+		</div>
     </body>
+	<script src="js/clickFunc.js"></script>
 </html>
 
 

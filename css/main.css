@@ -10,6 +10,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
 html {
     color: #222;
     font-size: 1em;
@@ -98,10 +99,6 @@ textarea {
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-html {
-	font-family: 'Open Sans', sans-serif;
-	font-size:100%;
-}
 
 body{
 	margin:0 auto;
@@ -123,8 +120,15 @@ ul,p {
 	list-style-type: none;
 }
 
+#form1{
+	display:inline-block;
+}
 .content {
 	overflow: auto
+}
+
+.mobile {
+	display:none;
 }
 
 a {
@@ -160,6 +164,15 @@ a {
 	-webkit-animation-delay:20s;
 }
 
+.arrow-right {
+	display: none;
+	width: 0; 
+	height: 0; 
+	border-top: 60px solid transparent;
+	border-bottom: 60px solid transparent;
+	
+	border-left: 60px solid white;
+}
 @-webkit-keyframes css-animation-fade{
 	from {opacity:0;}
 	5% {opacity:1;}
@@ -236,9 +249,12 @@ a {
 .head_class {
 	background:white;
 	position:fixed;
-	padding-bottom:5px;
+	padding-bottom:2%;
 	z-index:20;
 	width:100%;
+	margin:0 auto;
+}
+.head_class div{
 	margin:0 auto;
 }
 
@@ -276,6 +292,11 @@ a {
 	max-width:470px;
 }
 
+.search {
+	width:960px;
+	display: inline;
+}
+
 .description {
 	display:block;
 }
@@ -288,6 +309,7 @@ ul.second{ position:fixed; float:right}
 	border-style: solid;
 	background-color:#0099CC;
 	box-shadow:5px 5px 5px #0099FF;
+	margin-left:5%;
 }
 
 .articles_whats article p{
@@ -313,6 +335,7 @@ ul.second{ position:fixed; float:right}
 }
 .what_can_we_do_for_you {
 	background-color:#0099CC;
+	padding-bottom:10px;
 }
 
 .what_can_we_do_for_you div{
@@ -359,10 +382,23 @@ ul.second{ position:fixed; float:right}
 	padding:0px;
 	
 }
+.whats_happening h4, p{
+		text-align: left;
+		padding-left: 10px;
+
+}
+
+.events{
+	border-color: black;
+	display:inline-table;
+	background-color: #0099CC;
+	padding:20px;
+}
+
+
 
 .whats_happening ul li{
     background: white;
-    width: 400px;
     padding: 10px;
     border: 1px solid gray;
     border-radius: 5px;
@@ -387,14 +423,16 @@ ul.second{ position:fixed; float:right}
 }
 
 .events_news li{
+	display: inline-flex;
 	text-align:left;
 	font-size:1.5em;
 	color: white;
 }
 
+
 .stories{
-	margin: 0 auto;
-	max-width: 1000px;
+	margin: 0 auto !important;
+	max-width: 1000px !important;
 	padding-bottom:5px;
 	padding-top:5px;
 }
@@ -407,7 +445,8 @@ ul.second{ position:fixed; float:right}
 }
 .success_stories{
 	background: url(../src/img/weDoBG.png) repeat scroll 0 0,linear-gradient(to left, DodgerBlue, LightBlue);
-}	
+	padding-bottom: 5px;
+}
 
 .success_story > li {
   display: inline-block;
@@ -440,6 +479,9 @@ ul.second{ position:fixed; float:right}
 	margin: 0 auto;
 	display: block;
 	background-color:#0099CC;
+	padding:10px;
+	border-radius: 5px;
+	color:white;
 }
 
 section.no_picture{
@@ -496,6 +538,9 @@ img{
 	text-align: center;
 }
 
+.logo{
+	margin-bottom: 40px;
+}
 .logos_top {
   margin-bottom: 10px;
 }
@@ -547,6 +592,10 @@ img{
 
 .bottom_summary {
 	background-color:#202020;
+}
+
+.mobile-bottom{
+	display:none;
 }
 
 .bottom_summary div {
@@ -605,14 +654,16 @@ footer{
 
 footer div{	
 	width:100%;
-	text-align:center;
 	color:grey;
 	margin:0 auto;
 }
 
+footer div p{
+	text-align: center;
+}
 
 ol.slideshow{
-	margin: 10px auto;
+	margin: 10px auto 0 5%;
 	max-width: 1000px;
 	padding-left: 0px;
 }
@@ -724,90 +775,212 @@ ol.slideshow li.slideshow_1{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+.ham_menu
+{
+	display: none;
 }
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+.mobile-search{
+	display:none;
 }
 
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   http://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+.mobile-search img{
+	margin:5px;
 }
+
+.mobie-menu img{
+	width:38px;
+		height:38px;
+	 	border: 1px solid #d9d9d9;
+	  	float:none;
+	  	border-radius: 5px;
+	  	padding:0;
+}
+
+.mobile-form{
+	width:100%;
+	padding:5px;
+	font-size:1em;
+	margin-top:10px;
+	position:absolute;
+	text-align: left;
+	background-color: white;
+	background: white;
+}
+
+ol.slideshow li p{
+	display:none;
+}
+
+.ham_menu ul{
+	width:100%;
+	font-size:1em;
+	box-shadow:5px 5px 5px black;
+	position:absolute;
+	padding-left:30px;
+	margin-top:15px;
+	text-align: left;
+	background-color: white;
+	background: white;
+}
+
+.ham_menu ul li{
+  	border-bottom: 1px solid #dbdbdb;
+}
+
+
+
+@media screen and (max-width:767px) {
+	
+	html{
+	max-width:100%;
+	margin:0;
+	padding:0;
+	}
+	
+	.company , .person_pic{
+		display:none;
+	}
+	.container{
+		width:auto;
+	}
+
+	.mobile {
+	display:inline-flex;
+	float: left;
+	max-width:100%;
+	text-align: center;
+	-webkit-column-count:3;
+	-webkit-column-width:33%;
+	}
+
+	.mobile-search{
+		display:block;
+		width:38px;
+		height:38px;
+	 	border: 1px solid #d9d9d9;
+	  	float:none;
+	  	border-radius: 5px;
+	  	padding:0;
+	}
+	
+	.mobile-form{
+		display:none !important;
+	}
+
+	.mobile a img{
+		width:50%;
+		height: 50%;
+	}
+
+	#free {
+		background: url(../src/img/weDoBG.png) repeat scroll 0 0,linear-gradient(to left, DodgerBlue, LightBlue);
+		opacity:0.8;
+		margin:0;
+		padding-top:5%;
+		max-width:100%;
+		font-size: 1em;
+	}
+
+	.articles_{
+		width:100%;
+		background-image: none;
+		margin:0;
+		padding-top: 10%;
+		display: inline-block;
+
+	}
+
+	.articles_ article{
+		display:inline-block;
+		width: 100%;
+		height:50%;
+		padding:0;
+		margin-top: 40px;
+		border-radius: 0px;
+		margin:0 auto;
+		opacity:1;
+	}
+
+	.articles_ article::after{
+		content:url('../src/img/promotion-item-arrow.png');
+		float:right;
+		margin:0 auto;
+	}
+
+	.what_can_we_do_for_you ul{
+		width:100%;
+		-webkit-column-count: 3; 
+		-webkit-column-width: 2%;
+	}
+
+	.what_can_we_do_for_you button{
+		display:none;
+	}
+
+	.whats_happening h4{
+		text-align: left;
+		padding-left: 10px;
+
+	}
+
+	.success_story li{
+		margin:0;
+		padding:0;
+		-webkit-column-count: 1; 
+		-webkit-column-width:100%;
+		width:50%;
+		float:right;
+		font-size: 0.6em;
+		z-index: 1;
+	}
+
+	.mobile-bottom{
+		color:white;
+		display:block;
+		background-color:#202020;
+	}
+
+	.mobile-bottom li{
+		padding:5px;
+		display:block;
+		margin-left:5px;
+		border-bottom: 1px solid #000;
+	}
+
+	.mobile-bottom a{
+		padding-left:10px;
+	}
+
+ol.slideshow li p{
+	display:inline;
+	padding:0;
+}
+ol.slideshow li{
+	width: 11px;
+	height: 11px;
+	border-radius: 2px;
+	background-color: LightGray;
+	float: left;
+	margin: 3px;
+	padding:10px;
+}
+
+ol.slideshow li:hover{
+	background:lightblue;
+}
+	h4, h1{
+		font-size: 1em;
+	}
+
+	.logos_logos_top , .links, .search, .lang, .dropdown-toggle, .no_picture , .bottom_summary{
+		display:none;
+	}
+
+	.topList{
+
+		display: hidden;
+	}
+
+}
+
