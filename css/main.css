@@ -212,6 +212,7 @@ a {
 	box-shadow:5px 5px 5px grey;
 	background:white;
 	position:absolute;
+	z-index:10;
 }
 
 .topDropdown a {
